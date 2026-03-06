@@ -4,11 +4,13 @@ WORKDIR /app
 
 RUN pip install poetry
 
+ENV PYTHONUNBUFFERED=1
+
 COPY pyproject.toml poetry.lock* ./
 
-RUN poetry config virutalenvs.create false \
-    && poetry install --no-interaction \
+RUN poetry config virtualenvs.create false \
+    && poetry install --no-interaction --no-root
 
 COPY . .
 
-CMD["sleep", "infinity"]
+CMD ["sleep", "infinity"]

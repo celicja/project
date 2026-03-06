@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ingestion"
+name = "project"
 version = "0.1.0"
 description = ""
 authors = ["Celicja <lxqd@wp.pl>"]
@@ -7,12 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-pandas = "^3.0.1"
-requests = "^2.32.5"
-psycopg2-binary = "^2.9.11"
-python-dotenv = "^1.2.2"
-pydantic = "^2.12.5"
-sqlalchemy = "^2.0.48"
 
 
 [build-system]
