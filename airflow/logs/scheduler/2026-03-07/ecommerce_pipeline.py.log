@@ -1105,3 +1105,738 @@
 [2026-03-07T06:45:02.504+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:45:02.504+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-03-07T06:45:02.510+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:45:02.510+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
 [2026-03-07T06:45:02.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.218 seconds
+[2026-03-07T06:45:32.675+0000] {processor.py:161} INFO - Started process (PID=178) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:45:32.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:45:32.680+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:45:32.679+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:45:32.686+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:45:32.704+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:45:32.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:45:32.711+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:45:32.711+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:45:32.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.055 seconds
+[2026-03-07T06:46:02.815+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:46:02.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:46:02.823+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:46:02.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:46:02.831+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:46:02.848+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:46:02.848+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:46:02.856+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:46:02.855+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:46:02.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.062 seconds
+[2026-03-07T06:46:32.991+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:46:32.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:46:32.993+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:46:32.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:46:33.002+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:46:33.030+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:46:33.030+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:46:33.037+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:46:33.037+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:46:33.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.066 seconds
+[2026-03-07T06:47:03.155+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:47:03.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:47:03.163+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:47:03.162+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:47:03.171+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:47:03.191+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:47:03.191+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:47:03.198+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:47:03.198+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:47:03.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.062 seconds
+[2026-03-07T06:47:33.343+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:47:33.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:47:33.351+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:47:33.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:47:33.362+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:47:33.381+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:47:33.381+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:47:33.388+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:47:33.388+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:47:33.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.064 seconds
+[2026-03-07T06:48:03.499+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:48:03.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:48:03.505+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:48:03.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:48:03.511+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:48:03.530+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:48:03.530+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:48:03.538+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:48:03.538+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:48:03.552+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.061 seconds
+[2026-03-07T06:48:33.686+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:48:33.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:48:33.689+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:48:33.688+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:48:33.697+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:48:33.720+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:48:33.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:48:33.728+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:48:33.728+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:48:33.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.064 seconds
+[2026-03-07T06:49:03.829+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:49:03.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:49:03.835+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:49:03.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:49:03.842+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:49:03.863+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:49:03.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:49:03.872+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:49:03.872+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:49:03.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.066 seconds
+[2026-03-07T06:49:33.990+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:49:33.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:49:33.996+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:49:33.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:49:34.002+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:49:34.019+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:49:34.019+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:49:34.027+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:49:34.027+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:49:34.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.052 seconds
+[2026-03-07T06:50:04.140+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:50:04.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:50:04.142+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:50:04.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:50:04.153+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:50:04.186+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:50:04.185+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:50:04.193+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:50:04.193+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:50:04.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.073 seconds
+[2026-03-07T06:50:34.320+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:50:34.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:50:34.327+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:50:34.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:50:34.335+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:50:34.353+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:50:34.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:50:34.360+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:50:34.359+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:50:34.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T06:51:04.479+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:51:04.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:51:04.486+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:51:04.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:51:04.495+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:51:04.514+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:51:04.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:51:04.521+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:51:04.521+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:51:04.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.064 seconds
+[2026-03-07T06:51:34.659+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:51:34.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:51:34.661+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:51:34.661+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:51:34.667+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:51:34.687+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:51:34.687+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:51:34.694+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:51:34.694+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:51:34.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.055 seconds
+[2026-03-07T06:52:04.814+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:52:04.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:52:04.821+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:52:04.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:52:04.832+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:52:04.855+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:52:04.855+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:52:04.863+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:52:04.863+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:52:04.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.068 seconds
+[2026-03-07T06:52:34.981+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:52:34.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:52:34.989+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:52:34.988+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:52:34.997+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:52:35.027+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:52:35.027+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:52:35.036+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:52:35.036+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:52:35.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.087 seconds
+[2026-03-07T06:53:05.134+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:53:05.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:53:05.136+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:53:05.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:53:05.141+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:53:05.162+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:53:05.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:53:05.173+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:53:05.173+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:53:05.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T06:53:35.334+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:53:35.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:53:35.342+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:53:35.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:53:35.349+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:53:35.371+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:53:35.371+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:53:35.382+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:53:35.382+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:53:35.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.066 seconds
+[2026-03-07T06:54:05.487+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:54:05.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:54:05.495+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:54:05.495+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:54:05.506+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:54:05.536+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:54:05.535+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:54:05.543+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:54:05.543+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:54:05.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.084 seconds
+[2026-03-07T06:54:35.673+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:54:35.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:54:35.675+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:54:35.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:54:35.681+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:54:35.699+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:54:35.699+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:54:35.707+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:54:35.707+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:54:35.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.056 seconds
+[2026-03-07T06:55:05.862+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:55:05.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:55:05.869+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:55:05.869+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:55:05.879+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:55:05.909+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:55:05.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:55:05.916+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:55:05.916+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:55:05.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.074 seconds
+[2026-03-07T06:55:36.015+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:55:36.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:55:36.021+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:55:36.021+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:55:36.027+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:55:36.043+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:55:36.043+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:55:36.052+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:55:36.052+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:55:36.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.057 seconds
+[2026-03-07T06:56:06.175+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:56:06.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:56:06.177+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:56:06.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:56:06.186+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:56:06.214+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:56:06.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:56:06.227+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:56:06.227+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:56:06.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.076 seconds
+[2026-03-07T06:56:36.321+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:56:36.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:56:36.329+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:56:36.328+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:56:36.337+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:56:36.353+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:56:36.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:56:36.360+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:56:36.360+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:56:36.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.057 seconds
+[2026-03-07T06:57:06.521+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:06.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:57:06.522+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:06.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:06.527+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:06.544+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:06.544+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:57:06.551+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:06.551+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:57:06.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.048 seconds
+[2026-03-07T06:57:14.619+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:14.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:57:14.623+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:14.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:14.630+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:14.698+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:14.698+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:57:14.703+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:14.703+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:57:14.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.102 seconds
+[2026-03-07T06:57:44.759+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:44.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:57:44.761+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:44.761+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:44.767+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:57:44.786+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:44.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:57:44.795+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:57:44.795+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:57:44.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.056 seconds
+[2026-03-07T06:58:14.908+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:58:14.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:58:14.917+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:58:14.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:58:14.925+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:58:14.951+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:58:14.950+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:58:14.957+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:58:14.957+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:58:14.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.068 seconds
+[2026-03-07T06:58:45.093+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:58:45.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:58:45.097+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:58:45.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:58:45.103+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:58:45.122+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:58:45.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:58:45.129+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:58:45.129+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:58:45.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.053 seconds
+[2026-03-07T06:59:15.248+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:59:15.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:59:15.256+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:59:15.256+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:59:15.266+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:59:15.296+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:59:15.296+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:59:15.303+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:59:15.303+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:59:15.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.075 seconds
+[2026-03-07T06:59:45.405+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:59:45.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T06:59:45.407+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:59:45.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:59:45.412+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T06:59:45.429+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:59:45.429+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T06:59:45.440+0000] {logging_mixin.py:188} INFO - [2026-03-07T06:59:45.439+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T06:59:45.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.053 seconds
+[2026-03-07T07:00:15.564+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:00:15.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:00:15.571+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:00:15.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:00:15.579+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:00:15.596+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:00:15.596+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:00:15.603+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:00:15.603+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:00:15.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.059 seconds
+[2026-03-07T07:00:45.716+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:00:45.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:00:45.722+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:00:45.722+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:00:45.729+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:00:45.747+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:00:45.747+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:00:45.755+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:00:45.755+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:00:45.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T07:01:15.889+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:01:15.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:01:15.892+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:01:15.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:01:15.899+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:01:15.929+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:01:15.928+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:01:15.936+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:01:15.936+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:01:15.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.068 seconds
+[2026-03-07T07:01:46.058+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:01:46.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:01:46.066+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:01:46.065+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:01:46.073+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:01:46.092+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:01:46.091+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:01:46.101+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:01:46.101+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:01:46.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.061 seconds
+[2026-03-07T07:02:16.218+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:02:16.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:02:16.220+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:02:16.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:02:16.226+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:02:16.244+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:02:16.244+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:02:16.251+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:02:16.251+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:02:16.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.052 seconds
+[2026-03-07T07:02:46.386+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:02:46.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:02:46.394+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:02:46.393+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:02:46.402+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:02:46.418+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:02:46.418+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:02:46.426+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:02:46.426+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:02:46.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.059 seconds
+[2026-03-07T07:03:16.521+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:03:16.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:03:16.527+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:03:16.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:03:16.534+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:03:16.553+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:03:16.553+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:03:16.565+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:03:16.564+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:03:16.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.061 seconds
+[2026-03-07T07:03:46.708+0000] {processor.py:161} INFO - Started process (PID=427) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:03:46.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:03:46.711+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:03:46.710+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:03:46.718+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:03:46.736+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:03:46.735+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:03:46.742+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:03:46.742+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:03:46.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.055 seconds
+[2026-03-07T07:04:16.866+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:04:16.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:04:16.874+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:04:16.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:04:16.881+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:04:16.903+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:04:16.903+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:04:16.911+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:04:16.910+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:04:16.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.068 seconds
+[2026-03-07T07:04:47.015+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:04:47.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:04:47.022+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:04:47.022+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:04:47.028+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:04:47.045+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:04:47.045+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:04:47.054+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:04:47.054+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:04:47.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.055 seconds
+[2026-03-07T07:05:17.175+0000] {processor.py:161} INFO - Started process (PID=442) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:05:17.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:05:17.182+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:05:17.182+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:05:17.187+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:05:17.214+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:05:17.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:05:17.221+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:05:17.221+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:05:17.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:05:47.337+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:05:47.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:05:47.346+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:05:47.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:05:47.356+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:05:47.387+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:05:47.387+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:05:47.394+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:05:47.394+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:05:47.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.079 seconds
+[2026-03-07T07:06:17.513+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:06:17.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:06:17.516+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:06:17.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:06:17.522+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:06:17.546+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:06:17.546+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:06:17.553+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:06:17.553+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:06:17.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.062 seconds
+[2026-03-07T07:06:47.674+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:06:47.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:06:47.680+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:06:47.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:06:47.686+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:06:47.710+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:06:47.710+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:06:47.723+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:06:47.723+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:06:47.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.075 seconds
+[2026-03-07T07:07:17.797+0000] {processor.py:161} INFO - Started process (PID=462) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:07:17.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:07:17.799+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:07:17.799+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:07:17.808+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:07:17.834+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:07:17.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:07:17.847+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:07:17.847+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:07:17.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.077 seconds
+[2026-03-07T07:07:47.990+0000] {processor.py:161} INFO - Started process (PID=482) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:07:47.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:07:47.996+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:07:47.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:07:48.002+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:07:48.022+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:07:48.022+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:07:48.030+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:07:48.030+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:07:48.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.057 seconds
+[2026-03-07T07:08:18.116+0000] {processor.py:161} INFO - Started process (PID=487) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:08:18.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:08:18.118+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:08:18.117+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:08:18.126+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:08:18.145+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:08:18.145+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:08:18.152+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:08:18.152+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:08:18.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.055 seconds
+[2026-03-07T07:08:48.293+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:08:48.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:08:48.299+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:08:48.299+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:08:48.304+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:08:48.321+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:08:48.321+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:08:48.328+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:08:48.328+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:08:48.341+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.051 seconds
+[2026-03-07T07:09:18.451+0000] {processor.py:161} INFO - Started process (PID=497) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:09:18.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:09:18.454+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:09:18.454+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:09:18.461+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:09:18.479+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:09:18.479+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:09:18.486+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:09:18.486+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:09:18.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.057 seconds
+[2026-03-07T07:09:48.657+0000] {processor.py:161} INFO - Started process (PID=502) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:09:48.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:09:48.665+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:09:48.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:09:48.672+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:09:48.689+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:09:48.689+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:09:48.696+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:09:48.696+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:09:48.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.059 seconds
+[2026-03-07T07:10:18.825+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:10:18.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:10:18.827+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:10:18.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:10:18.832+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:10:18.848+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:10:18.848+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:10:18.855+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:10:18.855+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:10:18.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.052 seconds
+[2026-03-07T07:10:49.032+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:10:49.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:10:49.041+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:10:49.041+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:10:49.052+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:10:49.074+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:10:49.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:10:49.081+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:10:49.081+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:10:49.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.071 seconds
+[2026-03-07T07:11:19.207+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:11:19.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:11:19.210+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:11:19.210+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:11:19.220+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:11:19.238+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:11:19.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:11:19.246+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:11:19.245+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:11:19.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T07:11:49.391+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:11:49.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:11:49.400+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:11:49.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:11:49.412+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:11:49.440+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:11:49.440+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:11:49.452+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:11:49.452+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:11:49.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.087 seconds
+[2026-03-07T07:12:19.512+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:12:19.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:12:19.516+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:12:19.516+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:12:19.523+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:12:19.546+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:12:19.545+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:12:19.557+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:12:19.557+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:12:19.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.062 seconds
+[2026-03-07T07:12:49.646+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:12:49.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:12:49.648+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:12:49.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:12:49.654+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:12:49.672+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:12:49.672+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:12:49.680+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:12:49.680+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:12:49.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.050 seconds
+[2026-03-07T07:13:08.785+0000] {processor.py:161} INFO - Started process (PID=543) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:13:08.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:13:08.794+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:13:08.794+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:13:08.802+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:13:08.879+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:13:08.879+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:13:08.885+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:13:08.885+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:13:08.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.120 seconds
+[2026-03-07T07:13:38.937+0000] {processor.py:161} INFO - Started process (PID=570) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:13:38.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:13:38.945+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:13:38.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:13:38.956+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:13:38.984+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:13:38.984+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:13:38.991+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:13:38.991+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:13:39.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.074 seconds
+[2026-03-07T07:14:09.075+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:09.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:14:09.077+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:09.077+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:09.082+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:09.105+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:09.105+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:14:09.113+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:09.113+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:14:09.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.059 seconds
+[2026-03-07T07:14:25.236+0000] {processor.py:161} INFO - Started process (PID=580) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:25.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:14:25.241+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:25.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:25.254+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:25.280+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:25.280+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:14:25.289+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:25.289+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:14:25.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.074 seconds
+[2026-03-07T07:14:55.408+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:55.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:14:55.413+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:55.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:55.422+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:14:55.443+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:55.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:14:55.450+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:14:55.450+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:14:55.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.062 seconds
+[2026-03-07T07:15:25.574+0000] {processor.py:161} INFO - Started process (PID=590) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:15:25.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:15:25.576+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:15:25.576+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:15:25.586+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:15:25.616+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:15:25.616+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:15:25.630+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:15:25.629+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:15:25.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.080 seconds
+[2026-03-07T07:15:55.728+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:15:55.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:15:55.736+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:15:55.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:15:55.745+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:15:55.765+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:15:55.765+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:15:55.772+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:15:55.772+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:15:55.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:16:25.914+0000] {processor.py:161} INFO - Started process (PID=600) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:16:25.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:16:25.923+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:16:25.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:16:25.935+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:16:25.954+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:16:25.954+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:16:25.961+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:16:25.961+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:16:25.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:16:56.073+0000] {processor.py:161} INFO - Started process (PID=605) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:16:56.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:16:56.075+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:16:56.075+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:16:56.081+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:16:56.098+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:16:56.098+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:16:56.106+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:16:56.106+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:16:56.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.053 seconds
+[2026-03-07T07:17:26.254+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:17:26.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:17:26.260+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:17:26.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:17:26.266+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:17:26.294+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:17:26.294+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:17:26.306+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:17:26.306+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:17:26.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.073 seconds
+[2026-03-07T07:17:56.411+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:17:56.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:17:56.419+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:17:56.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:17:56.426+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:17:56.447+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:17:56.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:17:56.455+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:17:56.455+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:17:56.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:18:26.613+0000] {processor.py:161} INFO - Started process (PID=628) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:18:26.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:18:26.616+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:18:26.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:18:26.624+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:18:26.642+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:18:26.641+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:18:26.649+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:18:26.648+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:18:26.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.056 seconds
+[2026-03-07T07:18:56.779+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:18:56.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:18:56.786+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:18:56.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:18:56.796+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:18:56.822+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:18:56.822+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:18:56.830+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:18:56.830+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:18:56.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.073 seconds
+[2026-03-07T07:19:26.956+0000] {processor.py:161} INFO - Started process (PID=646) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:19:26.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:19:26.964+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:19:26.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:19:26.975+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:19:26.997+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:19:26.997+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:19:27.004+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:19:27.004+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:19:27.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.070 seconds
+[2026-03-07T07:19:57.149+0000] {processor.py:161} INFO - Started process (PID=651) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:19:57.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:19:57.152+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:19:57.152+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:19:57.163+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:19:57.186+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:19:57.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:19:57.194+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:19:57.193+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:19:57.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.064 seconds
+[2026-03-07T07:20:27.314+0000] {processor.py:161} INFO - Started process (PID=656) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:20:27.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:20:27.323+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:20:27.323+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:20:27.331+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:20:27.353+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:20:27.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:20:27.360+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:20:27.359+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:20:27.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:20:57.520+0000] {processor.py:161} INFO - Started process (PID=661) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:20:57.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:20:57.526+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:20:57.525+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:20:57.540+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:20:57.570+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:20:57.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:20:57.578+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:20:57.578+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:20:57.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.079 seconds
+[2026-03-07T07:21:27.663+0000] {processor.py:161} INFO - Started process (PID=666) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:21:27.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:21:27.665+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:21:27.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:21:27.672+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:21:27.692+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:21:27.692+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:21:27.702+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:21:27.702+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:21:27.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.057 seconds
+[2026-03-07T07:21:57.830+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:21:57.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:21:57.837+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:21:57.837+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:21:57.843+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:21:57.861+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:21:57.861+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:21:57.869+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:21:57.868+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:21:57.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.068 seconds
+[2026-03-07T07:22:27.999+0000] {processor.py:161} INFO - Started process (PID=676) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:22:28.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:22:28.005+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:22:28.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:22:28.011+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:22:28.032+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:22:28.032+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:22:28.040+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:22:28.040+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:22:28.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T07:22:58.186+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:22:58.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:22:58.188+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:22:58.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:22:58.194+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:22:58.214+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:22:58.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:22:58.223+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:22:58.222+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:22:58.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.059 seconds
+[2026-03-07T07:23:28.341+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:23:28.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:23:28.348+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:23:28.347+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:23:28.359+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:23:28.379+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:23:28.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:23:28.388+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:23:28.388+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:23:28.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.073 seconds
+[2026-03-07T07:23:58.545+0000] {processor.py:161} INFO - Started process (PID=691) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:23:58.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:23:58.551+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:23:58.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:23:58.558+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:23:58.576+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:23:58.576+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:23:58.584+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:23:58.583+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:23:58.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.061 seconds
+[2026-03-07T07:24:28.710+0000] {processor.py:161} INFO - Started process (PID=696) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:24:28.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:24:28.712+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:24:28.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:24:28.720+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:24:28.739+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:24:28.739+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:24:28.746+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:24:28.746+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:24:28.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.057 seconds
+[2026-03-07T07:24:58.911+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:24:58.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:24:58.914+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:24:58.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:24:58.921+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:24:58.937+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:24:58.937+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:24:58.945+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:24:58.944+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:24:58.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.053 seconds
+[2026-03-07T07:25:29.070+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:25:29.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:25:29.080+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:25:29.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:25:29.093+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:25:29.120+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:25:29.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:25:29.128+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:25:29.128+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:25:29.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.080 seconds
+[2026-03-07T07:25:59.262+0000] {processor.py:161} INFO - Started process (PID=711) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:25:59.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:25:59.265+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:25:59.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:25:59.272+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:25:59.303+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:25:59.302+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:25:59.312+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:25:59.312+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:25:59.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.081 seconds
+[2026-03-07T07:26:29.429+0000] {processor.py:161} INFO - Started process (PID=716) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:26:29.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:26:29.438+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:26:29.437+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:26:29.452+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:26:29.490+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:26:29.490+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:26:29.497+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:26:29.497+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:26:29.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.094 seconds
+[2026-03-07T07:26:59.631+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:26:59.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:26:59.640+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:26:59.639+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:26:59.649+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:26:59.667+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:26:59.667+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:26:59.675+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:26:59.674+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:26:59.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.067 seconds
+[2026-03-07T07:27:29.799+0000] {processor.py:161} INFO - Started process (PID=726) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:27:29.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:27:29.801+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:27:29.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:27:29.808+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:27:29.830+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:27:29.829+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:27:29.837+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:27:29.837+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:27:29.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T07:27:59.975+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:27:59.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:27:59.983+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:27:59.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:27:59.991+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:28:00.010+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:28:00.010+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:28:00.017+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:28:00.017+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:28:00.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:28:30.140+0000] {processor.py:161} INFO - Started process (PID=736) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:28:30.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:28:30.143+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:28:30.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:28:30.149+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:28:30.167+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:28:30.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:28:30.174+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:28:30.174+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:28:30.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.057 seconds
+[2026-03-07T07:29:00.322+0000] {processor.py:161} INFO - Started process (PID=741) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:29:00.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:29:00.328+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:29:00.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:29:00.334+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:29:00.353+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:29:00.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:29:00.363+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:29:00.363+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:29:00.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T07:29:30.480+0000] {processor.py:161} INFO - Started process (PID=746) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:29:30.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:29:30.484+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:29:30.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:29:30.491+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:29:30.515+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:29:30.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:29:30.524+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:29:30.524+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:29:30.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.069 seconds
+[2026-03-07T07:30:00.662+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:30:00.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:30:00.667+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:30:00.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:30:00.673+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:30:00.691+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:30:00.691+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:30:00.699+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:30:00.698+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:30:00.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.055 seconds
+[2026-03-07T07:30:30.837+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:30:30.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:30:30.845+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:30:30.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:30:30.853+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:30:30.869+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:30:30.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:30:30.877+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:30:30.877+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:30:30.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.060 seconds
+[2026-03-07T07:31:01.016+0000] {processor.py:161} INFO - Started process (PID=761) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:31:01.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:31:01.017+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:31:01.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:31:01.025+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:31:01.044+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:31:01.044+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:31:01.053+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:31:01.053+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:31:01.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.061 seconds
+[2026-03-07T07:31:31.179+0000] {processor.py:161} INFO - Started process (PID=766) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:31:31.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:31:31.187+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:31:31.187+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:31:31.195+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:31:31.213+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:31:31.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:31:31.221+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:31:31.221+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:31:31.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.068 seconds
+[2026-03-07T07:32:01.347+0000] {processor.py:161} INFO - Started process (PID=771) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:32:01.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:32:01.354+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:32:01.354+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:32:01.360+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:32:01.382+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:32:01.381+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:32:01.390+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:32:01.390+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:32:01.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:32:31.497+0000] {processor.py:161} INFO - Started process (PID=776) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:32:31.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:32:31.499+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:32:31.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:32:31.506+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:32:31.524+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:32:31.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:32:31.533+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:32:31.532+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:32:31.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.053 seconds
+[2026-03-07T07:33:01.678+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:33:01.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:33:01.681+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:33:01.681+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:33:01.688+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:33:01.707+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:33:01.707+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:33:01.715+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:33:01.715+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:33:01.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.056 seconds
+[2026-03-07T07:33:31.825+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:33:31.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:33:31.834+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:33:31.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:33:31.844+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:33:31.863+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:33:31.863+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:33:31.870+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:33:31.870+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:33:31.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.065 seconds
+[2026-03-07T07:34:02.020+0000] {processor.py:161} INFO - Started process (PID=791) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:34:02.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:34:02.029+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:34:02.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:34:02.038+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:34:02.057+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:34:02.057+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:34:02.066+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:34:02.066+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:34:02.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.068 seconds
+[2026-03-07T07:34:32.179+0000] {processor.py:161} INFO - Started process (PID=796) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:34:32.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:34:32.182+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:34:32.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:34:32.190+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:34:32.207+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:34:32.207+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:34:32.215+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:34:32.214+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:34:32.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.059 seconds
+[2026-03-07T07:35:02.370+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:35:02.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:35:02.377+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:35:02.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:35:02.390+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:35:02.417+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:35:02.417+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:35:02.425+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:35:02.425+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:35:02.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.076 seconds
+[2026-03-07T07:35:32.527+0000] {processor.py:161} INFO - Started process (PID=806) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:35:32.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:35:32.535+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:35:32.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:35:32.543+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:35:32.565+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:35:32.565+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:35:32.574+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:35:32.574+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:35:32.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.069 seconds
+[2026-03-07T07:36:02.683+0000] {processor.py:161} INFO - Started process (PID=811) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:36:02.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:36:02.684+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:36:02.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:36:02.690+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:36:02.708+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:36:02.708+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:36:02.717+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:36:02.717+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:36:02.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.050 seconds
+[2026-03-07T07:36:32.787+0000] {processor.py:161} INFO - Started process (PID=816) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:36:32.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:36:32.793+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:36:32.793+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:36:32.799+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:36:32.817+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:36:32.817+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:36:32.825+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:36:32.825+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:36:32.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.056 seconds
+[2026-03-07T07:37:02.965+0000] {processor.py:161} INFO - Started process (PID=821) to work on /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:37:02.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ecommerce_pipeline.py for tasks to queue
+[2026-03-07T07:37:02.971+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:37:02.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:37:02.976+0000] {processor.py:840} INFO - DAG(s) 'ecommerce_pipeline' retrieved from /opt/airflow/dags/ecommerce_pipeline.py
+[2026-03-07T07:37:02.993+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:37:02.993+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T07:37:03.001+0000] {logging_mixin.py:188} INFO - [2026-03-07T07:37:03.001+0000] {dag.py:3954} INFO - Setting next_dagrun for ecommerce_pipeline to None, run_after=None
+[2026-03-07T07:37:03.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ecommerce_pipeline.py took 0.055 seconds

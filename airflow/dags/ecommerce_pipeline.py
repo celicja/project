@@ -17,9 +17,8 @@ with DAG(
 
     ingestion = BashOperator(
         task_id="run_ingestion",
-        bash_command="docker exec ecommerce_ingestion python /app/app/load_data.py",
+        bash_command="docker exec ecommerce_ingestion python3 /app/main.py",
     )
-
     dbt_run = BashOperator(
         task_id="dbt_run",
         bash_command="docker exec ecommerce_dbt dbt run --project-dir /usr/app",
